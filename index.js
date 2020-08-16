@@ -7,10 +7,18 @@ function mapToNegativize(sourceArray) {
   return result;
 }
 
-mapToNoChange(sourceArray) {
+function mapToNoChange(sourceArray) {
+
+  let result = sourceArray;
+
+  return result;
+}
+
+
+function mapToDouble(sourceArray) {
   let result = [];
   for(const element of sourceArray) {
-    result.push(parseInt(sourceArray[element]));
+    result.push(parseInt(sourceArray[element]) * 2);
   }
   return result;
 }
