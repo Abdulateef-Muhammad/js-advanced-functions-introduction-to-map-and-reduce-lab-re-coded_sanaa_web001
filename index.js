@@ -32,10 +32,17 @@ function mapToSquare(sourceArray) {
   return result;
 }
 
-
 function reduceToTotal(sourceArray, start = 0) {
   for(const element in sourceArray) {
     start += parseInt(sourceArray[element]);
   }
   return start;
 }
+
+function reduceToTotal(sourceArray) {
+  for(const element in sourceArray) {
+    if(!sourceArray[element]) return false;
+  }
+  return true;
+}
+
