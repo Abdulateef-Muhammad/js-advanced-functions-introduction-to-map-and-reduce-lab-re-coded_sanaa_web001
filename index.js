@@ -45,4 +45,3 @@ function reduceToTotal(sourceArray) {
   }
   return true;
 }
-
