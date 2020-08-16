@@ -19,7 +19,7 @@ function mapToNoChange(sourceArray) {
 
 function mapToDouble(sourceArray) {
   let result = [];
-  for(const element of sourceArray) {
+  for(const element in sourceArray) {
     result.push(parseInt(sourceArray[element]) * 2);
   }
   return result;
