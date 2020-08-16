@@ -52,5 +52,3 @@ function reduceToAnyTrue(sourceArray) {
   }
   return false;
 }
-
-
