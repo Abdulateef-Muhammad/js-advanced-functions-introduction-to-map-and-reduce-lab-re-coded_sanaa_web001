@@ -26,8 +26,19 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   let result = [];
   for(let element in sourceArray) {
-    result.push(parseInt(sourceArray[element]) * 2);
+    result.push(parseInt(Math.pow(sourceArray[element]), 2));
   }
 
   return result;
 }
+
+
+function reduceToTotal(sourceArray, start = 0) {
+  for(const element in sourceArray) {
+    start += parseInt(sourceArray[element]);
+  }
+  return start;
+}
+
+
+
