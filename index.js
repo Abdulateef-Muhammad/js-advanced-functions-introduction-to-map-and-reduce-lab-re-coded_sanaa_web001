@@ -39,6 +39,3 @@ function reduceToTotal(sourceArray, start = 0) {
   }
   return start;
 }
-
-
-
