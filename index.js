@@ -26,7 +26,7 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   let result = [];
   for(let element in sourceArray) {
-    result.push(parseInt(Math.pow(sourceArray[element]), 2));
+    result.push(parseInt(Math.pow(sourceArray[element], 2)));
   }
 
   return result;
