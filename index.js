@@ -22,5 +22,3 @@ function mapToDouble(sourceArray) {
   }
   return result;
 }
-
-
