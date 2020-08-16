@@ -7,6 +7,8 @@ function mapToNegativize(sourceArray) {
   return result;
 }
 
+cosole.log(mapToNegativize([1, 2, 3]));
+
 function mapToNoChange(sourceArray) {
 
   let result = sourceArray;
