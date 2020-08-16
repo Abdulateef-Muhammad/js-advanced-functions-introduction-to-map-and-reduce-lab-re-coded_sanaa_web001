@@ -7,8 +7,6 @@ function mapToNegativize(sourceArray) {
   return result;
 }
 
-console.log(mapToNegativize([1, 2, 3]));
-
 function mapToNoChange(sourceArray) {
 
   let result = sourceArray;
@@ -24,3 +22,5 @@ function mapToDouble(sourceArray) {
   }
   return result;
 }
+
+
